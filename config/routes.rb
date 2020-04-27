@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'comments/new'
+  get 'comments/create'
+  get 'comments/destroy'
  get 'topics/new'
  get 'sessions/new'
 
@@ -6,8 +9,9 @@ Rails.application.routes.draw do
   get 'pages/help'
 
   resources :users
-  resources :topics
-  resources :comments
+  resources :topics do
+    resources :comments, only: [:create, :new]#ルーティングのネスト
+  end
   
   get 'favorites/index'
   post '/favorites', to: 'favorites#create'
