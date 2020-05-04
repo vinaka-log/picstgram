@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'comments/new'
-  get 'comments/create'
+  post 'comments/', to: "comments#create"
   get 'comments/destroy'
  get 'topics/new'
  get 'sessions/new'
