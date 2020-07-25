@@ -59,9 +59,9 @@
 ## 「ShitsumonWa?」の課題・追加実装したい機能
 
 -  レスポンス速度の改善（[PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=JA&url=https%3A%2F%2Fwww.shitsumonwa.com%2F&tab=mobile)）
-　-   CloudFront（AWS）でRailsのAssets周りにある静的ファイルをCDN配信
-　-　 必要のないCSSファイルを全消去
-　-　 head内に共通CSSは直書きする
+　-  CloudFront（AWS）でRailsのAssets周りにある静的ファイルをCDN配信
+　-　必要のないCSSファイルを全消去
+　-　head内に共通CSSは直書きする
   
   -  パソコン
   
