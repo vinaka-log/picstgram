@@ -2,11 +2,15 @@
 
 - URL: https://www.shitsumonwa.com
 
-# 「ShitsumonWa?」について
+## サービス概要
+![image](https://user-images.githubusercontent.com/61833409/88449166-a4d7dc80-ce7f-11ea-821f-5f130757ed09.png)
+
+
+## 「ShitsumonWa?」について
 
 日本について気軽に質問できるWebサービスです。日本語についてのちょっとした質問や、おすすめの観光地などを共有できます。
 
-# なぜ「ShitsumonWa?」というサービス？
+## なぜ「ShitsumonWa?」というサービス？
 
 - 「日本が好きだけれど、日本に留学にくるにはお金がかかる。」（20代前半アゼルバイジャン人男性）
 - 「日本旅行に頻繁にいくので、有名な観光地ではなくローカルの人がいく穴場スポットが知りたい。」（20代中盤香港人女性）
@@ -14,7 +18,7 @@
 
 上記の友人の意見から、日本についての情報を共有できるサービスはニーズがあると感じたためです。
 
-# 「ShitsumonWa?」の機能一覧
+## 「ShitsumonWa?」の機能一覧
 
 -  ユーザーのCRUD機能
 -  ログイン機能(sorcery)
@@ -32,7 +36,7 @@
 -  プロフィールにJapan Scoreを表示（自身の投稿に対するいいね数の総和）
 -  画像アップロード（carrierwave、mini_magick、 AWS S3、 fog）
 
-# 「ShitsumonWa?」の技術一覧
+## 「ShitsumonWa?」の技術一覧
 
 -  プラットフォーム（AWS EC2 ALB Route53 ）
 -  Webサーバー（Nginx）
@@ -47,12 +51,12 @@
 -  バージョン管理 （Git）
 -  リポジトリ管理（Github）
 
-# 「ShitsumonWa?」の課題・追加実装したい機能
+## 「ShitsumonWa?」の課題・追加実装したい機能
 
 -  ###  レスポンス速度の改善（[PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=JA&url=https%3A%2F%2Fwww.shitsumonwa.com%2F&tab=mobile)）
-　-  CloudFront（AWS）でRailsのAssets周りにある静的ファイルをCDN配信
-　-　必要のないCSSファイルを全消去
-　-　head内に共通CSSは直書きする
+　-   CloudFront（AWS）でRailsのAssets周りにある静的ファイルをCDN配信
+　-　 必要のないCSSファイルを全消去
+　-　 head内に共通CSSは直書きする
   
   -  パソコン
   
@@ -61,6 +65,16 @@
   -  モバイル
   
 ![image](https://user-images.githubusercontent.com/61833409/88448702-78ba5c80-ce7b-11ea-9323-7c4ab123fcd0.png)
+
+-  ###  SEO対策（google-analytics-rails、meta-tags、sitemap_generator）
+-  ###  slack通知機能
+-  ###  デプロイの自動化(Circle CD)
+-  ###  DM機能と非同期でメッセージの送受信
+-  ###  質問のタグ機能
+
+
+
+
 
 
 
