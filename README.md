@@ -54,7 +54,7 @@
 
 ## 「ShitsumonWa?」の課題・追加実装したい機能
 
--  ###  レスポンス速度の改善（[PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=JA&url=https%3A%2F%2Fwww.shitsumonwa.com%2F&tab=mobile)）
+-  レスポンス速度の改善（[PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=JA&url=https%3A%2F%2Fwww.shitsumonwa.com%2F&tab=mobile)）
 　-   CloudFront（AWS）でRailsのAssets周りにある静的ファイルをCDN配信
 　-　 必要のないCSSファイルを全消去
 　-　 head内に共通CSSは直書きする
@@ -67,11 +67,11 @@
   
 ![image](https://user-images.githubusercontent.com/61833409/88448702-78ba5c80-ce7b-11ea-9323-7c4ab123fcd0.png)
 
--  ###  SEO対策（google-analytics-rails、meta-tags、sitemap_generator）
--  ###  slack通知機能
--  ###  デプロイの自動化(Circle CD)
--  ###  DM機能と非同期でメッセージの送受信
--  ###  質問のタグ機能
+-  SEO対策（google-analytics-rails、meta-tags、sitemap_generator）
+-  Slack通知機能
+-  デプロイの自動化(Circle CD)
+-  DM機能と非同期でメッセージの送受信
+-  質問のタグ機能
 
 
 
