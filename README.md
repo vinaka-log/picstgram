@@ -2,7 +2,7 @@
 
 - URL: https://www.shitsumonwa.com
 
-# 「ShitsumonWa?」のについて
+# 「ShitsumonWa?」について
 
 日本について気軽に質問できるWebサービスです。日本語についてのちょっとした質問や、おすすめの観光地などを共有できます。
 
@@ -50,10 +50,15 @@
 # 「ShitsumonWa?」の課題・追加実装したい機能
 
 -  レスポンス速度の改善
+
   [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=JA&url=https%3A%2F%2Fwww.shitsumonwa.com%2F&tab=mobile)
+  
   -  パソコン
+  
 ![image](https://user-images.githubusercontent.com/61833409/88448643-e914ae00-ce7a-11ea-9538-653217df2447.png)
-  -  パソコン
+
+  -  モバイル
+  
 ![image](https://user-images.githubusercontent.com/61833409/88448702-78ba5c80-ce7b-11ea-9323-7c4ab123fcd0.png)
 
 
