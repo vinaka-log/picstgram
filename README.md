@@ -49,7 +49,7 @@
 
 # 「ShitsumonWa?」の課題・追加実装したい機能
 
--  レスポンス速度の改善
+-  ###  レスポンス速度の改善
 
   [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=JA&url=https%3A%2F%2Fwww.shitsumonwa.com%2F&tab=mobile)
   
