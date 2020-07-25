@@ -1,8 +1,9 @@
-# サイト情報
+# サービス概要
+
+## サイト情報
 
 - URL: https://www.shitsumonwa.com
-
-## サービス概要
+ 
 ![image](https://user-images.githubusercontent.com/61833409/88449166-a4d7dc80-ce7f-11ea-821f-5f130757ed09.png)
 
 
