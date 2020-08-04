@@ -2,7 +2,7 @@
 
 ## Site information
 
--　URL: https://www.shitsumonwa.com
+- URL: https://www.shitsumonwa.com
  
 ![image](https://user-images.githubusercontent.com/61833409/88449166-a4d7dc80-ce7f-11ea-821f-5f130757ed09.png)
 
