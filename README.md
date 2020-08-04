@@ -1,94 +1,82 @@
 # ShitsumonWa?
 
-## サイト情報
+## Site information
 
-- URL: https://www.shitsumonwa.com
+-　URL: https://www.shitsumonwa.com
  
 ![image](https://user-images.githubusercontent.com/61833409/88449166-a4d7dc80-ce7f-11ea-821f-5f130757ed09.png)
 
 
-## 「ShitsumonWa?」について
+## About "ShitsumonWa?"
 
-日本について気軽に質問できるWebサービスです。日本語についてのちょっとした質問や、おすすめの観光地などを共有できます。
+This is a Web service where you can easily ask questions about Japan. You can share small questions about Japanese and recommended sightseeing spots.
 
-##  なぜ「ShitsumonWa?」というサービス？
+## Why "Shitsumon Wa?" service?
 
-- 「日本が好きだけれど、日本に留学にくるにはお金がかかる。」（20代前半アゼルバイジャン人男性）
-- 「日本旅行に頻繁にいくので、有名な観光地ではなくローカルの人がいく穴場スポットが知りたい。」（20代中盤香港人女性）
-- 「コロナで日本語の授業がなくなってしまったので独学をしているが、日本語の文法が難しく、気軽に質問できる場所が欲しい。」（30代前半ロシア人女性）
+-　“I like Japan, but it costs money to come to study in Japan.” (Azerbaijani man in his early twenties)
+-　"I often travel to Japan, so I want to know the spots where local people go, not famous tourist spots." (Middle 20s Hong Kong woman)
+-　"I am self-taught because my Japanese lessons have disappeared in Corona, but I want a place where I can feel free to ask questions because the grammar of Japanese is difficult." (Russian women in their early thirties)
 
-上記の友人の意見から、日本についての情報を共有できるサービスはニーズがあるとわかり、身近にサービスがあれば友人の日本への理解を深める手助けをできると思ったからです。
+From the opinions of my friends above, I knew that there was a need for a service that could share information about Japan, and I thought that having a service close to me would help my friends deepen their understanding of Japan.
 
-##  開発環境
--  Ruby 2.6.3
--  Rails 6.0.3
+##  Development environment
+-　Ruby 2.6.3
+-　Rails 6.0.3
 
-## 「ShitsumonWa?」の機能一覧
+## Function list of "Shitsumon Wa?"
 
--  ユーザーのCRUD機能
--  ログイン機能(sorcery)
--  メールでのアクティベーション (sorcery,ActionMailer)
--  パスワードリセット（sorcery,ActionMailer）
--  Remeber me（sorcery）
--  Twitter、Facebookログイン(sorcery)
--  質問投稿のCRUD機能
--  いいね機能（Ajax）
--  ストック機能（Ajax）
--  フォロー機能 （Ajax）
--  ソート機能
--  ページネーション機能(Kaminari)
--  プロフィールにSNSリンクを表示（Twitter,Facebook,Instagram）
--  プロフィールにJapan Scoreを表示（自身の投稿に対するいいね数の総和）
--  画像アップロード（carrierwave、mini_magick、 AWS S3、 fog）
+-　User CRUD function
+-　Login function (sorcery)
+-　Email activation (sorcery,ActionMailer)
+-　Password reset (sorcery,ActionMailer)
+-　Remeber me (sorcery)
+-　Twitter, Facebook login (sorcery)
+-　CRUD function for question posting
+-　Like function (Ajax)
+-　Stock function (Ajax)
+-　Follow function (Ajax)
+-　Sort function
+-　Pagination function (Kaminari)
+-　Show SNS link on profile (Twitter, Facebook, Instagram)
+-　Display Japan Score on your profile (total number of likes for your post)
+-　Image upload (carrierwave, mini_magick, AWS S3, fog)
 
-## 「ShitsumonWa?」の技術一覧
+## "Shitsumon Wa?" Technology List
 
--  プラットフォーム（AWS EC2 ALB Route53 ）
--  Webサーバー（Nginx）
--  APサーバー（Unicorn）
--  データベース（PostgreSQL）
--  テスト（Rspec、Capybara、factory_bot）
--  自動テスト (Circle CI)
--  CSSフレームワーク（Bootstrap4）
--  JavaScriptライブラリ （jQuery）
--  コードチェック（rubocop）
--  開発環境 （Docker）
--  バージョン管理 （Git）
--  リポジトリ管理（Github）
+-　Platform (AWS EC2 ALB Route53)
+-　Web server (Nginx)
+-　AP server (Unicorn)
+-　Database (PostgreSQL)
+-　Test (Rspec, Capybara, factory_bot)
+-　Automated test (Circle CI)
+-　CSS framework (Bootstrap4)
+-　JavaScript library (jQuery)
+-　Code check (rubocop)
+-　Development environment (Docker)
+-　Version control (Git)
+-　Repository management (Github)
 
-## 「ShitsumonWa?」の課題・追加実装したい機能
+## Issues of "ShitsumonWa?" ・Functions to be additionally implemented
 
--  レスポンス速度の改善（[PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=JA&url=https%3A%2F%2Fwww.shitsumonwa.com%2F&tab=mobile)）
+-　Improved response speed ([PageSpeed ​​Insights](https://developers.google.com/speed/pagespeed/insights/?hl=JA&url=https%3A%2F%2Fwww.shitsumonwa.com%2F&tab=mobile))
 
 
-  -  CloudFront（AWS）でRailsのAssets周りにある静的ファイルをCDN配信
-  -  必要のないCSSファイルを全消去
-  -  head内に共通CSSは直書きする
+  -　Deliver a CDN file of static files around Rails Assets with CloudFront (AWS)
+  -　Erase all unnecessary CSS files
+  -　Write common CSS directly in head
   
   
   
-  -  パソコン
+  -  computer
   
 ![image](https://user-images.githubusercontent.com/61833409/88448643-e914ae00-ce7a-11ea-9538-653217df2447.png)
 
-  -  モバイル
+  -  mobile
   
 ![image](https://user-images.githubusercontent.com/61833409/88448702-78ba5c80-ce7b-11ea-9323-7c4ab123fcd0.png)
 
--  SEO対策（google-analytics-rails、meta-tags、sitemap_generator）
--  Slack通知機能
--  デプロイの自動化(Circle CD)
--  DM機能と非同期でメッセージの送受信
--  質問のタグ機能
-
-
-
-
-
-
-
-
-
-
-
-
+-　SEO measures (google-analytics-rails, meta-tags, sitemap_generator)
+-　Slack notification function
+-　Deployment automation (Circle CD)
+-　Send and receive messages asynchronously with DM function
+-　Question tag function
