@@ -69,12 +69,11 @@ From the opinions of my friends above, I knew that there was a need for a servic
   - 3.Write common CSS directly in head
   
   
-  
-  - computer
+   - computer
   
 ![image](https://user-images.githubusercontent.com/61833409/88448643-e914ae00-ce7a-11ea-9538-653217df2447.png)
 
-  - mobile
+   - mobile
   
 ![image](https://user-images.githubusercontent.com/61833409/88448702-78ba5c80-ce7b-11ea-9323-7c4ab123fcd0.png)
 
